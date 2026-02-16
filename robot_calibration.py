@@ -44,6 +44,9 @@ print(f'Predicted X: {round(X_pred, 2)}, Predicted Y: {round(Y_pred, 2)}')
 print(f'Expected X: 325, Expected Y: -25')
 print(f'Error in X: {round(X_pred - 325, 2)}, Error in Y: {round(Y_pred + 25, 2)}')
 
+
+
+
 errors = []
 
 for i in range(len(img_pts)):
